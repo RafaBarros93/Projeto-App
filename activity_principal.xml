@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.rafael.protecaoveicularautocar.Principal"
+    tools:layout_editor_absoluteY="81dp"
+    tools:layout_editor_absoluteX="0dp"
+
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Lista de oficinas"
+        android:textSize="20dp"
+        android:textColor="#000"
+        android:id="@+id/textView2"
+        android:layout_marginStart="6dp"
+        tools:layout_constraintTop_creator="1"
+        android:layout_marginTop="84dp"
+        tools:layout_constraintLeft_creator="1"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginLeft="6dp" />
+
+    <Button
+        android:id="@+id/btn_verificar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Verificar"
+        android:layout_marginEnd="58dp"
+        tools:layout_constraintTop_creator="1"
+        tools:layout_constraintRight_creator="1"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginTop="77dp"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginRight="58dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:textColor="#000"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Indicar Amigo"
+        android:textSize="20dp"
+        android:layout_marginStart="16dp"
+        tools:layout_constraintTop_creator="1"
+        android:layout_marginTop="182dp"
+        tools:layout_constraintLeft_creator="1"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginLeft="16dp" />
+
+    <Button
+        android:id="@+id/btn_indicar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Indicar"
+        tools:layout_constraintTop_creator="1"
+        tools:layout_constraintRight_creator="1"
+        android:layout_marginEnd="58dp"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginTop="49dp"
+        app:layout_constraintTop_toBottomOf="@+id/btn_verificar"
+        android:layout_marginRight="58dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bem Vindo ao nosso App"
+        android:textSize="33dp"
+        android:textColor="#000"
+        tools:layout_constraintTop_creator="1"
+        tools:layout_constraintLeft_creator="1"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+
+
+
+
+
+</android.support.constraint.ConstraintLayout>
